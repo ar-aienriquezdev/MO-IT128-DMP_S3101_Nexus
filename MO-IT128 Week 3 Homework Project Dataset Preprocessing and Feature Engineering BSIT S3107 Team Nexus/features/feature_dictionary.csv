@@ -1,0 +1,33 @@
+feature,group,description
+txn_count,Spending,Total number of transactions for the customer.
+total_spend,Spending,Sum of transaction amounts.
+avg_spend,Spending,Mean transaction amount.
+median_spend,Spending,Median transaction amount.
+min_spend,Spending,Minimum transaction amount.
+max_spend,Spending,Maximum transaction amount.
+std_spend,Spending,Standard deviation of transaction amounts.
+cv_spend,Spending,Coefficient of variation (std/mean) as spend stability indicator.
+pct_amount_imputed,DataQuality,Share of transactions where amount was imputed during cleaning.
+pct_amount_outlier,DataQuality,Share of transactions flagged as outliers before IQR-capping.
+active_days,Temporal,Number of unique transaction days.
+tenure_days,Temporal,Days between first and last transaction.
+recency_days,Temporal,Days since last transaction (relative to global last date).
+pct_weekend_txn,Temporal,Share of transactions occurring on weekends.
+pct_business_hours_txn,Temporal,Share of transactions during 9AM–5PM.
+avg_txn_hour,Temporal,Average transaction hour (0–23).
+std_txn_hour,Temporal,Std dev of transaction hour (timing variability).
+pct_tod_Morning,Temporal,Share of transactions in Morning bucket.
+pct_tod_Afternoon,Temporal,Share of transactions in Afternoon bucket.
+pct_tod_Evening,Temporal,Share of transactions in Evening bucket.
+pct_tod_Night,Temporal,Share of transactions in Night bucket.
+engagement_breadth,Engagement,Number of distinct transaction types used.
+monthly_spend_slope,Trend,Slope of customer monthly spend over time (positive=increasing).
+last_month_vs_avg_monthly,Trend,Ratio of last-month spend vs customer’s average monthly spend.
+high_risk_txn_count,RiskProxy,Count of high-amount (≥75th percentile) transactions.
+pct_high_risk_txn,RiskProxy,Share of high-amount (≥75th percentile) transactions.
+top_comment_sentiment,Feedback,Sentiment score derived from the customer’s most common feedback category.
+feedback_count,Feedback,Number of feedback records associated with the customer.
+satisfaction_mean,Feedback,Mean satisfaction score (customer-level).
+satisfaction_std,Feedback,Variation of satisfaction score.
+ltr_mean,Feedback,Mean likelihood-to-recommend score (customer-level).
+ltr_std,Feedback,Variation of likelihood-to-recommend score.

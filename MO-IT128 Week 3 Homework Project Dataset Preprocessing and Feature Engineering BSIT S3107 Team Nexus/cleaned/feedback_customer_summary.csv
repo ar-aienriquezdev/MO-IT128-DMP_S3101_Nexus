@@ -1,0 +1,1001 @@
+Customer_ID,feedback_count,satisfaction_mean,satisfaction_std,ltr_mean,ltr_std,top_comment
+1,2,8.5,2.12,9.0,0.0,Very Satisfied
+2,3,4.33,2.31,5.0,2.0,Very Satisfied
+3,3,8.33,2.08,3.67,3.79,Very Satisfied
+4,6,5.5,2.07,3.33,2.5,Needs Improvement
+5,9,6.44,2.01,5.67,2.87,Unsatisfactory
+6,3,2.67,0.58,3.33,3.21,Needs Improvement
+7,5,5.1,2.51,4.4,3.51,Good Service
+8,3,7.5,0.5,4.33,3.06,Needs Improvement
+9,6,7.0,2.28,4.0,3.1,Good Service
+10,4,5.0,2.31,3.5,2.08,Needs Improvement
+11,6,5.0,3.52,3.67,1.75,Good Service
+12,4,5.5,3.7,6.25,2.99,Unsatisfactory
+13,8,6.38,2.2,4.25,2.71,Very Satisfied
+14,5,7.8,1.79,5.8,3.11,Good Service
+15,3,5.0,4.58,7.67,2.08,Very Satisfied
+16,7,6.29,2.69,5.71,3.59,Excellent
+17,5,5.2,3.42,7.2,2.28,Very Satisfied
+18,5,4.8,3.11,4.8,3.49,Needs Improvement
+19,5,5.4,3.36,3.8,3.83,Good Service
+20,6,6.67,2.66,5.67,3.67,Needs Improvement
+21,10,5.7,3.13,6.1,2.92,Unsatisfactory
+22,4,5.5,3.0,8.25,1.5,Unsatisfactory
+23,2,6.0,2.83,8.0,2.83,Good Service
+24,4,5.5,3.7,8.75,1.5,Good Service
+25,5,6.0,3.32,7.6,2.7,Good Service
+26,6,5.5,3.45,8.0,2.19,Good Service
+27,5,6.8,2.77,5.0,2.45,Unsatisfactory
+28,3,3.5,2.5,2.0,1.0,Good Service
+29,6,4.17,2.99,7.17,1.17,Good Service
+30,6,3.83,2.99,6.83,2.32,Good Service
+31,2,6.5,3.54,8.0,0.0,Needs Improvement
+32,6,7.5,2.81,5.5,3.02,Good Service
+33,6,7.17,2.79,7.33,2.34,Good Service
+34,3,3.33,0.58,6.33,2.08,Good Service
+35,4,5.75,0.96,8.0,2.0,Needs Improvement
+36,7,5.71,3.55,4.14,2.54,Very Satisfied
+37,13,6.15,2.97,5.0,2.65,Very Satisfied
+38,4,7.25,2.06,3.0,1.41,Good Service
+39,4,3.75,2.99,7.0,2.83,Good Service
+40,6,5.17,3.19,7.5,3.56,Excellent
+41,1,3.0,0.0,10.0,0.0,Excellent
+42,4,6.5,2.65,4.5,2.65,Good Service
+43,4,5.75,3.1,2.75,1.71,Good Service
+44,6,6.67,1.75,7.67,2.07,Unsatisfactory
+45,1,4.0,0.0,3.0,0.0,Needs Improvement
+46,5,4.6,2.51,5.2,4.02,Very Satisfied
+47,6,6.83,3.66,5.5,3.73,Very Satisfied
+48,5,5.8,3.77,4.8,2.59,Good Service
+49,7,6.71,2.98,4.14,3.13,Needs Improvement
+50,3,5.0,1.73,4.0,0.0,Unsatisfactory
+51,6,6.5,1.87,6.5,3.27,Needs Improvement
+52,7,5.0,2.38,4.57,2.23,Good Service
+53,6,6.5,2.35,4.0,2.61,Needs Improvement
+54,3,4.67,4.04,8.0,3.46,Excellent
+55,6,4.83,2.56,7.67,2.34,Needs Improvement
+56,4,3.75,2.36,7.25,1.26,Good Service
+57,6,5.5,2.43,4.67,1.75,Unsatisfactory
+58,4,8.0,2.71,7.75,3.3,Unsatisfactory
+59,4,5.25,3.95,5.25,1.71,Unsatisfactory
+60,1,10.0,0.0,3.0,0.0,Good Service
+61,4,4.75,2.06,5.5,2.08,Good Service
+62,3,4.67,2.89,5.67,1.15,Good Service
+63,5,5.4,2.61,5.2,2.49,Good Service
+64,4,3.25,2.06,5.5,4.2,Good Service
+65,4,6.75,1.89,7.5,1.73,Needs Improvement
+66,6,6.33,2.25,3.83,1.33,Very Satisfied
+67,3,4.67,3.51,4.67,3.79,Very Satisfied
+68,1,4.0,0.0,1.0,0.0,Excellent
+69,3,6.67,1.53,6.0,4.36,Unsatisfactory
+70,5,6.6,3.36,4.2,2.95,Unsatisfactory
+71,2,2.5,2.12,5.5,0.71,Excellent
+72,4,4.5,2.65,5.75,1.71,Unsatisfactory
+73,5,7.8,1.92,3.4,2.61,Needs Improvement
+74,9,5.44,3.24,6.56,3.05,Very Satisfied
+75,7,5.0,3.32,5.57,2.94,Very Satisfied
+76,7,4.0,2.31,6.29,3.35,Excellent
+77,7,5.86,2.97,5.29,3.15,Good Service
+78,2,7.0,1.41,3.0,1.41,Excellent
+79,6,3.5,2.26,7.17,2.48,Good Service
+80,8,7.12,3.04,6.88,2.42,Unsatisfactory
+81,3,4.67,1.53,7.33,1.15,Very Satisfied
+82,6,3.33,1.86,5.67,2.58,Unsatisfactory
+83,2,7.0,1.41,3.5,2.12,Good Service
+84,3,3.33,2.31,5.67,0.58,Very Satisfied
+85,7,5.57,2.94,7.14,3.53,Very Satisfied
+86,3,6.67,4.16,8.67,1.15,Very Satisfied
+87,4,5.75,2.22,6.0,4.08,Good Service
+88,5,6.2,3.11,4.2,2.77,Excellent
+89,6,5.83,3.54,5.83,2.71,Good Service
+90,6,3.0,2.1,4.5,3.51,Unsatisfactory
+91,4,7.25,3.77,5.25,3.77,Needs Improvement
+92,4,4.5,3.0,4.5,2.65,Needs Improvement
+93,8,6.75,2.49,6.62,2.5,Needs Improvement
+94,4,5.5,3.7,5.75,3.3,Good Service
+95,1,8.0,0.0,5.0,0.0,Good Service
+96,4,4.5,4.04,3.75,2.63,Unsatisfactory
+97,6,5.33,3.72,3.83,2.99,Good Service
+98,2,1.5,0.71,9.5,0.71,Very Satisfied
+99,5,4.8,2.68,3.8,1.92,Good Service
+100,2,8.0,1.41,7.5,3.54,Good Service
+101,7,5.0,3.92,7.14,3.29,Good Service
+102,3,2.67,2.08,5.33,1.15,Unsatisfactory
+103,6,6.17,2.79,4.5,2.74,Unsatisfactory
+104,6,6.0,1.9,4.33,2.34,Good Service
+105,9,6.0,3.39,4.33,2.74,Good Service
+106,11,5.36,3.14,4.45,3.21,Unsatisfactory
+107,7,7.29,1.5,5.57,2.57,Very Satisfied
+108,3,4.33,2.08,4.67,1.53,Unsatisfactory
+109,3,3.0,1.0,7.0,2.0,Good Service
+110,6,6.17,2.99,6.0,2.76,Needs Improvement
+111,7,5.21,2.45,6.29,2.69,Needs Improvement
+112,2,8.0,2.83,3.5,0.71,Very Satisfied
+113,4,7.75,3.3,7.25,2.22,Good Service
+114,7,6.14,3.48,7.0,1.83,Good Service
+115,4,4.25,2.75,4.0,2.58,Good Service
+116,4,7.0,4.24,6.25,2.75,Unsatisfactory
+117,5,6.8,2.05,5.2,2.86,Very Satisfied
+118,6,5.5,2.59,5.17,3.43,Good Service
+119,8,5.75,3.15,5.0,2.39,Needs Improvement
+120,5,5.8,3.03,6.8,3.35,Good Service
+121,3,5.67,2.31,1.67,1.15,Very Satisfied
+122,2,7.5,3.54,4.5,0.71,Good Service
+123,2,2.0,0.0,7.0,4.24,Good Service
+124,5,7.4,2.61,6.8,2.77,Good Service
+125,6,6.83,3.82,2.83,2.14,Needs Improvement
+126,4,6.75,1.26,4.0,2.71,Needs Improvement
+127,6,5.17,2.48,5.67,1.51,Needs Improvement
+128,5,4.1,1.88,4.6,3.44,Needs Improvement
+129,9,6.0,3.0,6.22,3.87,Unsatisfactory
+130,5,4.4,2.88,4.8,1.92,Good Service
+131,6,5.67,1.97,7.17,1.33,Needs Improvement
+132,5,6.4,2.51,3.8,1.48,Good Service
+133,7,5.57,3.26,4.14,2.54,Unsatisfactory
+134,6,3.33,2.25,6.67,2.5,Unsatisfactory
+135,4,4.75,2.99,7.75,2.22,Excellent
+136,2,3.5,2.12,3.0,1.41,Needs Improvement
+137,5,5.6,2.88,5.4,3.36,Needs Improvement
+138,4,5.75,3.77,6.5,3.51,Good Service
+139,5,3.4,1.14,6.8,3.96,Needs Improvement
+140,6,5.33,2.66,4.67,1.21,Excellent
+141,4,5.5,3.0,7.75,3.86,Needs Improvement
+142,3,6.33,2.52,6.33,4.04,Unsatisfactory
+143,5,7.7,0.84,4.0,1.58,Good Service
+144,3,8.67,1.53,7.0,3.61,Good Service
+145,4,6.0,1.63,6.25,3.5,Good Service
+146,3,3.67,1.53,6.33,3.79,Unsatisfactory
+147,4,5.25,0.96,4.5,4.04,Very Satisfied
+148,9,6.0,3.43,6.0,3.43,Unsatisfactory
+149,4,4.5,1.73,5.5,3.32,Good Service
+150,5,3.6,3.65,5.0,2.92,Needs Improvement
+151,5,6.6,3.21,6.4,3.21,Unsatisfactory
+152,4,6.5,3.0,5.0,3.16,Very Satisfied
+153,6,5.33,3.27,7.67,2.25,Excellent
+154,4,5.25,1.71,8.75,1.89,Unsatisfactory
+155,7,4.71,3.5,5.0,4.16,Good Service
+156,4,2.5,1.73,6.0,2.71,Very Satisfied
+157,8,6.75,1.75,6.38,2.77,Needs Improvement
+158,5,4.2,1.92,3.8,2.28,Very Satisfied
+159,3,4.33,4.93,2.67,0.58,Good Service
+160,5,4.2,2.59,4.6,3.51,Good Service
+161,6,7.17,2.99,4.67,3.08,Good Service
+162,5,5.8,3.03,5.0,3.39,Very Satisfied
+163,7,6.43,2.7,6.43,2.76,Needs Improvement
+164,5,5.6,3.13,5.8,3.11,Excellent
+165,4,6.0,3.16,7.25,3.5,Good Service
+166,3,3.67,2.08,6.67,4.16,Very Satisfied
+167,8,3.75,3.01,4.38,3.11,Unsatisfactory
+168,4,4.75,3.77,5.75,3.1,Unsatisfactory
+169,5,4.6,1.82,3.0,1.22,Needs Improvement
+170,4,4.75,2.63,4.0,3.37,Very Satisfied
+171,3,6.67,3.51,1.0,0.0,Excellent
+172,5,6.4,3.36,5.4,3.85,Good Service
+173,6,7.17,2.14,3.17,2.48,Very Satisfied
+174,6,5.17,2.04,5.67,3.39,Good Service
+175,7,3.71,2.5,6.86,3.02,Good Service
+176,2,6.5,2.12,2.5,0.71,Good Service
+177,5,6.2,3.42,6.6,1.67,Needs Improvement
+178,4,5.5,1.73,6.5,3.0,Good Service
+179,4,7.0,2.16,3.0,1.83,Needs Improvement
+180,3,3.67,2.31,6.67,4.04,Good Service
+181,6,4.67,2.73,7.0,2.68,Good Service
+182,8,6.0,2.56,6.38,3.38,Unsatisfactory
+183,4,4.25,1.26,5.5,2.52,Needs Improvement
+184,3,5.0,4.36,7.33,2.52,Unsatisfactory
+185,5,5.6,3.91,5.8,3.19,Good Service
+186,4,4.0,2.58,7.25,2.87,Needs Improvement
+187,2,3.0,1.41,8.0,2.83,Excellent
+188,5,5.4,2.07,3.6,3.78,Good Service
+189,7,5.93,3.63,4.71,2.56,Good Service
+190,6,4.67,3.56,5.5,3.21,Good Service
+191,6,6.17,2.04,6.5,2.17,Good Service
+192,5,6.2,2.86,4.4,2.79,Unsatisfactory
+193,6,5.67,4.41,5.33,2.5,Needs Improvement
+194,2,3.0,0.0,5.5,2.12,Good Service
+195,4,3.5,1.29,7.0,2.58,Unsatisfactory
+196,5,7.0,3.32,7.0,2.45,Needs Improvement
+197,4,4.25,3.3,6.75,3.4,Good Service
+198,5,5.4,2.97,7.2,2.05,Needs Improvement
+199,3,5.0,1.0,6.0,3.61,Unsatisfactory
+200,6,6.17,3.49,6.0,2.76,Good Service
+201,6,5.33,2.8,7.67,1.97,Unsatisfactory
+202,6,6.83,2.56,3.83,2.71,Excellent
+203,6,4.67,2.8,6.0,3.74,Very Satisfied
+204,9,6.22,2.05,6.11,2.62,Good Service
+205,6,4.33,3.78,7.67,1.97,Excellent
+206,5,3.6,2.61,6.2,4.09,Good Service
+207,3,3.0,2.65,5.67,4.04,Good Service
+208,3,2.67,2.08,5.67,3.51,Needs Improvement
+209,9,5.78,3.19,6.33,2.4,Unsatisfactory
+210,2,7.0,4.24,6.0,5.66,Needs Improvement
+211,8,6.0,3.42,6.12,3.48,Very Satisfied
+212,5,4.4,2.3,6.6,2.19,Very Satisfied
+213,5,4.6,1.34,7.0,2.55,Very Satisfied
+214,3,7.0,2.65,5.0,3.46,Needs Improvement
+215,3,5.67,3.06,7.67,2.31,Very Satisfied
+216,5,4.4,2.3,7.6,2.3,Very Satisfied
+217,5,6.4,2.7,5.4,2.3,Good Service
+218,9,6.11,3.44,5.11,2.8,Good Service
+219,3,6.67,2.08,6.0,3.0,Good Service
+220,5,4.6,3.05,6.2,3.96,Unsatisfactory
+221,4,6.75,2.22,7.0,2.45,Good Service
+222,8,6.0,2.27,5.0,2.83,Unsatisfactory
+223,5,5.0,3.24,6.8,2.17,Good Service
+224,5,8.2,2.05,6.4,3.71,Very Satisfied
+225,10,6.7,2.67,5.2,2.25,Good Service
+226,6,5.17,1.6,4.83,3.19,Excellent
+227,7,6.21,2.41,5.0,2.89,Very Satisfied
+228,4,7.25,3.59,2.75,2.06,Good Service
+229,5,4.8,3.27,6.0,2.83,Excellent
+230,2,4.0,2.83,1.5,0.71,Good Service
+231,7,5.86,2.97,5.43,3.95,Unsatisfactory
+232,5,5.6,2.07,5.2,3.27,Very Satisfied
+233,7,6.14,3.39,7.14,2.61,Unsatisfactory
+234,2,5.0,0.0,8.5,2.12,Needs Improvement
+235,3,6.67,2.89,2.33,2.31,Good Service
+236,6,5.67,3.5,6.0,2.61,Unsatisfactory
+237,5,4.6,3.05,5.4,3.13,Unsatisfactory
+238,2,4.0,2.83,4.0,2.83,Excellent
+239,7,4.14,2.61,4.0,1.91,Good Service
+240,2,3.0,0.0,8.0,2.83,Needs Improvement
+241,6,4.0,3.16,5.33,2.8,Very Satisfied
+242,3,5.33,4.51,7.0,3.46,Needs Improvement
+243,4,5.25,3.95,5.75,4.43,Unsatisfactory
+244,4,4.5,2.38,3.5,2.08,Needs Improvement
+245,9,4.56,2.35,7.44,2.6,Good Service
+246,9,5.44,3.43,3.56,2.4,Needs Improvement
+247,5,4.0,1.87,5.4,2.41,Very Satisfied
+248,4,4.5,3.32,4.5,3.11,Excellent
+249,4,7.0,3.56,4.75,2.87,Needs Improvement
+250,2,4.0,4.24,3.0,2.83,Good Service
+251,8,6.12,2.8,4.0,2.39,Unsatisfactory
+252,3,4.33,3.21,5.67,1.15,Very Satisfied
+253,3,7.67,0.58,4.0,1.73,Needs Improvement
+254,6,4.83,2.4,4.0,2.97,Very Satisfied
+255,4,4.5,4.04,9.5,0.58,Good Service
+256,3,2.67,0.58,8.33,2.89,Very Satisfied
+257,8,3.5,2.33,7.0,2.39,Very Satisfied
+258,4,2.25,1.5,3.5,3.11,Good Service
+259,10,4.6,2.32,5.7,2.75,Good Service
+260,5,7.0,3.67,4.0,2.45,Good Service
+261,8,6.0,2.73,6.25,2.49,Good Service
+262,3,6.67,3.06,7.33,1.15,Good Service
+263,2,7.0,2.83,7.5,2.12,Very Satisfied
+264,4,5.75,2.87,6.0,2.83,Unsatisfactory
+265,3,5.0,3.61,6.0,0.0,Needs Improvement
+266,2,1.5,0.71,6.0,0.0,Needs Improvement
+267,5,5.0,3.24,7.8,2.28,Good Service
+268,6,5.5,1.87,5.83,0.41,Needs Improvement
+269,8,5.38,3.34,5.75,3.01,Good Service
+270,3,8.0,1.0,4.0,2.65,Needs Improvement
+271,8,3.88,2.75,4.38,2.45,Good Service
+272,10,5.5,3.69,6.4,2.72,Good Service
+273,10,6.6,2.91,6.2,3.52,Needs Improvement
+274,6,4.5,2.17,4.83,3.92,Good Service
+275,5,3.0,1.58,5.4,3.21,Unsatisfactory
+276,4,7.25,3.2,6.75,1.71,Good Service
+277,5,4.8,3.03,6.2,3.35,Unsatisfactory
+278,4,8.5,1.29,4.25,2.63,Good Service
+279,5,5.6,2.3,5.4,2.88,Good Service
+280,10,5.5,2.92,6.1,3.35,Good Service
+281,7,8.43,0.98,5.43,3.64,Needs Improvement
+282,3,7.33,2.89,8.33,0.58,Very Satisfied
+283,3,4.67,1.53,6.67,2.08,Unsatisfactory
+284,5,6.2,3.42,1.2,0.45,Good Service
+285,5,4.8,3.35,4.6,2.7,Unsatisfactory
+286,2,6.5,0.71,4.5,0.71,Excellent
+287,4,6.5,2.65,6.75,3.59,Good Service
+288,5,7.0,3.24,3.8,3.7,Unsatisfactory
+289,7,7.86,2.67,6.14,3.44,Good Service
+290,4,3.75,0.5,7.0,3.56,Needs Improvement
+291,4,5.25,3.2,5.75,2.5,Good Service
+292,7,5.29,3.04,6.29,3.99,Good Service
+293,4,5.0,2.94,4.0,1.41,Needs Improvement
+294,7,4.71,3.35,5.43,2.7,Very Satisfied
+295,2,5.0,5.66,5.5,4.95,Excellent
+296,3,4.0,2.0,5.33,3.21,Excellent
+297,5,4.6,2.88,2.8,2.17,Excellent
+298,4,4.0,0.82,7.25,1.5,Good Service
+299,2,9.5,0.71,6.0,2.83,Good Service
+300,10,6.2,2.35,6.4,2.63,Very Satisfied
+301,5,4.8,1.92,7.8,2.86,Unsatisfactory
+302,2,5.5,0.71,4.5,4.95,Good Service
+303,4,5.75,1.5,6.0,2.16,Good Service
+304,7,4.57,3.6,4.14,3.29,Needs Improvement
+305,5,3.9,2.56,5.4,1.52,Excellent
+306,6,5.83,2.79,4.17,2.04,Excellent
+307,4,8.0,1.83,3.5,2.38,Good Service
+308,3,1.67,0.58,5.33,4.51,Unsatisfactory
+309,6,6.17,1.72,4.5,3.45,Unsatisfactory
+310,5,5.0,3.32,4.4,3.21,Unsatisfactory
+311,5,4.8,2.17,6.4,3.29,Needs Improvement
+312,7,4.14,2.67,5.86,2.54,Needs Improvement
+313,6,5.83,3.13,5.67,2.88,Needs Improvement
+314,4,6.0,3.56,4.5,3.32,Very Satisfied
+315,4,4.25,2.63,7.5,1.29,Unsatisfactory
+316,8,6.0,2.93,4.25,3.11,Unsatisfactory
+317,3,5.5,0.5,5.0,1.73,Good Service
+318,7,6.14,2.61,4.29,3.3,Needs Improvement
+319,9,5.33,3.64,6.22,2.11,Good Service
+320,7,6.71,2.5,5.14,3.08,Needs Improvement
+321,4,4.25,2.99,5.75,1.5,Unsatisfactory
+322,5,6.8,3.27,5.8,3.96,Good Service
+323,7,5.29,2.98,5.86,1.35,Unsatisfactory
+324,8,5.5,2.98,5.25,2.92,Good Service
+325,3,8.67,2.31,6.33,2.08,Needs Improvement
+326,4,5.75,0.5,6.0,3.46,Good Service
+327,4,3.75,2.22,7.0,3.46,Very Satisfied
+328,8,5.25,2.43,5.88,3.36,Excellent
+329,5,7.0,3.0,3.6,2.61,Unsatisfactory
+330,4,3.5,1.0,6.25,2.36,Unsatisfactory
+331,5,5.0,3.81,5.2,2.49,Good Service
+332,3,5.67,3.79,7.67,2.52,Unsatisfactory
+333,4,3.0,2.16,7.0,3.56,Excellent
+334,4,5.25,2.63,8.0,1.15,Good Service
+335,3,5.0,2.0,4.67,3.06,Excellent
+336,2,4.0,1.41,4.0,2.83,Good Service
+337,3,5.0,1.73,4.67,2.52,Unsatisfactory
+338,5,5.6,3.58,3.8,2.17,Good Service
+339,9,7.0,2.5,7.11,3.18,Very Satisfied
+340,5,7.0,1.87,6.6,3.05,Good Service
+341,9,7.67,2.4,7.33,2.74,Needs Improvement
+342,6,7.5,2.66,2.83,1.72,Unsatisfactory
+343,10,5.0,2.62,5.7,3.33,Needs Improvement
+344,8,7.62,2.45,3.62,2.13,Good Service
+345,4,3.75,3.2,4.0,3.46,Needs Improvement
+346,3,6.0,2.0,3.67,2.08,Unsatisfactory
+347,4,5.25,2.5,7.5,2.38,Excellent
+348,5,4.8,3.27,7.8,2.49,Good Service
+349,3,2.33,1.15,6.0,4.0,Good Service
+350,4,7.0,2.94,6.0,2.45,Good Service
+351,10,6.1,2.56,6.8,3.74,Very Satisfied
+352,2,6.0,2.83,4.0,4.24,Unsatisfactory
+353,4,8.5,1.91,6.75,0.96,Needs Improvement
+354,3,8.0,1.0,9.33,1.15,Unsatisfactory
+355,5,5.0,3.16,4.4,2.3,Very Satisfied
+356,7,4.86,2.67,3.86,2.34,Unsatisfactory
+357,7,5.57,2.99,5.14,2.48,Needs Improvement
+358,7,5.0,4.2,6.14,3.24,Needs Improvement
+359,5,6.0,3.0,5.4,2.88,Unsatisfactory
+360,5,7.4,2.07,5.0,3.39,Good Service
+361,4,6.75,2.22,3.5,1.0,Good Service
+362,9,6.33,2.29,4.78,2.54,Unsatisfactory
+363,6,5.33,1.97,7.17,1.94,Needs Improvement
+364,7,4.43,2.15,5.86,2.67,Good Service
+365,4,4.25,3.77,5.5,2.08,Good Service
+366,4,4.75,3.59,2.75,2.06,Excellent
+367,5,4.6,3.21,6.0,1.58,Very Satisfied
+368,3,3.67,2.08,3.67,1.53,Good Service
+369,6,3.67,2.73,4.83,1.72,Very Satisfied
+370,5,6.8,3.03,2.8,2.95,Needs Improvement
+371,1,2.0,0.0,2.0,0.0,Good Service
+372,5,4.8,2.17,7.8,3.27,Needs Improvement
+373,6,5.5,2.43,4.17,2.79,Good Service
+374,2,5.0,2.83,6.0,2.83,Needs Improvement
+375,4,5.5,3.42,5.75,1.89,Good Service
+376,4,5.75,0.96,7.5,3.11,Very Satisfied
+377,7,5.0,2.58,5.29,2.5,Very Satisfied
+378,3,6.33,3.21,3.67,1.53,Good Service
+379,3,3.0,1.0,6.33,3.06,Very Satisfied
+380,8,5.62,4.03,4.5,3.02,Very Satisfied
+381,7,5.07,3.35,5.43,2.88,Unsatisfactory
+382,5,7.0,3.39,5.6,3.65,Unsatisfactory
+383,5,5.6,2.07,7.6,2.07,Needs Improvement
+384,5,6.2,3.56,6.0,2.92,Unsatisfactory
+385,6,6.0,2.45,5.0,3.46,Excellent
+386,3,4.33,1.53,7.67,2.08,Very Satisfied
+387,3,5.0,2.0,4.67,3.79,Good Service
+388,6,4.17,2.14,6.67,2.66,Good Service
+389,4,5.5,2.65,6.75,1.71,Needs Improvement
+390,1,9.0,0.0,4.0,0.0,Good Service
+391,3,5.33,3.06,7.0,3.61,Good Service
+392,5,5.0,1.87,5.4,3.21,Excellent
+393,1,1.0,0.0,3.0,0.0,Excellent
+394,9,6.0,3.94,4.78,3.42,Excellent
+395,6,5.67,3.08,6.67,3.08,Needs Improvement
+396,5,7.4,2.07,6.0,2.92,Good Service
+397,7,6.71,3.3,5.43,3.26,Needs Improvement
+398,4,4.5,2.65,4.25,3.59,Needs Improvement
+399,10,4.5,2.17,5.9,3.38,Excellent
+400,6,6.5,1.76,6.17,4.07,Good Service
+401,4,5.25,4.03,3.75,2.22,Good Service
+402,5,6.0,2.83,4.4,2.51,Needs Improvement
+403,5,7.2,2.39,4.4,1.14,Unsatisfactory
+404,6,5.5,2.59,6.17,3.19,Very Satisfied
+405,3,5.67,4.04,5.67,3.21,Needs Improvement
+406,6,6.0,2.83,6.0,2.1,Excellent
+407,10,4.6,2.41,4.8,2.82,Very Satisfied
+408,5,6.6,2.7,6.0,3.39,Unsatisfactory
+409,6,5.33,3.14,7.0,1.26,Good Service
+410,2,2.5,2.12,6.5,2.12,Needs Improvement
+411,1,6.0,0.0,4.0,0.0,Needs Improvement
+412,5,4.0,1.87,6.0,4.12,Good Service
+413,2,9.0,1.41,7.0,1.41,Needs Improvement
+414,3,2.67,1.53,4.67,4.73,Good Service
+415,3,5.33,0.58,5.67,1.15,Excellent
+416,4,5.25,2.63,6.5,1.91,Good Service
+417,4,4.5,3.11,5.25,2.22,Needs Improvement
+418,4,4.0,2.16,6.0,2.45,Needs Improvement
+419,5,6.2,3.27,7.0,1.58,Unsatisfactory
+420,5,5.0,3.67,6.2,2.68,Good Service
+421,8,6.88,2.8,3.88,2.42,Needs Improvement
+422,5,6.4,2.61,7.8,1.64,Excellent
+423,2,6.0,0.0,8.0,2.83,Unsatisfactory
+424,10,5.7,2.54,6.8,2.82,Good Service
+425,5,6.8,3.27,5.2,2.77,Needs Improvement
+426,3,4.67,3.21,5.0,4.36,Excellent
+427,2,4.0,2.83,4.5,3.54,Very Satisfied
+428,4,4.25,1.89,3.0,2.45,Unsatisfactory
+429,6,6.83,2.32,6.33,3.33,Needs Improvement
+430,4,3.75,2.5,6.0,0.82,Needs Improvement
+431,7,5.43,2.94,5.29,2.69,Good Service
+432,5,6.4,2.51,5.8,2.39,Needs Improvement
+433,7,5.14,3.89,7.86,2.73,Very Satisfied
+434,5,5.0,2.55,5.8,3.7,Unsatisfactory
+435,7,5.14,2.73,5.86,3.29,Very Satisfied
+436,7,5.43,2.7,5.71,3.86,Good Service
+437,6,4.0,2.1,4.83,3.92,Good Service
+438,4,8.0,3.37,7.25,0.96,Unsatisfactory
+439,6,5.17,3.13,3.0,2.1,Good Service
+440,4,5.25,2.63,5.5,2.52,Good Service
+441,3,6.0,2.65,4.0,2.65,Good Service
+442,3,7.67,2.08,7.0,2.0,Unsatisfactory
+443,5,7.2,3.83,3.8,2.77,Good Service
+444,8,8.0,1.51,5.75,2.92,Good Service
+445,7,5.86,3.58,6.0,3.32,Very Satisfied
+446,6,5.83,3.66,4.67,3.2,Very Satisfied
+447,5,3.8,1.3,3.8,2.59,Needs Improvement
+448,1,8.0,0.0,4.0,0.0,Excellent
+449,3,4.67,4.04,5.33,3.51,Very Satisfied
+450,3,5.0,1.73,6.33,3.51,Very Satisfied
+451,8,5.88,3.0,5.5,3.89,Needs Improvement
+452,4,6.25,1.71,4.0,2.94,Needs Improvement
+453,6,4.83,2.64,6.0,2.97,Very Satisfied
+454,3,5.0,4.0,6.33,4.04,Very Satisfied
+455,2,5.0,1.41,8.5,2.12,Very Satisfied
+456,7,5.29,2.87,4.57,1.72,Good Service
+457,4,8.25,1.5,5.5,2.65,Good Service
+458,5,7.0,1.87,7.4,1.95,Needs Improvement
+459,4,4.0,2.16,3.5,2.65,Needs Improvement
+460,4,4.0,3.16,5.0,1.83,Very Satisfied
+461,8,6.0,2.33,5.88,3.56,Unsatisfactory
+462,5,7.8,2.86,5.2,3.35,Good Service
+463,7,6.86,2.79,6.0,3.16,Unsatisfactory
+464,8,6.38,2.72,5.25,3.33,Needs Improvement
+465,4,3.75,3.4,6.0,3.37,Unsatisfactory
+466,5,8.0,3.39,7.2,3.83,Unsatisfactory
+467,8,5.88,3.4,5.12,2.47,Good Service
+468,6,5.67,3.01,7.67,3.01,Good Service
+469,4,5.5,1.73,5.75,3.77,Needs Improvement
+470,3,8.0,2.65,5.0,2.65,Good Service
+471,7,4.43,2.64,3.71,3.25,Needs Improvement
+472,5,7.4,3.71,6.2,2.59,Good Service
+473,4,6.5,3.7,6.25,2.75,Unsatisfactory
+474,6,5.67,2.07,5.83,3.37,Good Service
+475,4,8.0,1.83,6.5,3.7,Very Satisfied
+476,6,5.83,2.99,6.0,3.58,Very Satisfied
+477,5,7.2,2.39,6.2,2.59,Very Satisfied
+478,3,5.67,2.31,6.0,2.65,Good Service
+479,2,7.5,0.71,8.5,0.71,Good Service
+480,7,5.21,1.58,6.0,3.06,Unsatisfactory
+481,4,7.75,2.87,6.0,4.24,Good Service
+482,4,5.25,3.3,4.25,3.86,Unsatisfactory
+483,4,7.0,3.46,5.5,1.29,Good Service
+484,3,4.33,2.08,7.0,3.0,Excellent
+485,3,7.33,3.79,5.33,4.04,Excellent
+486,6,5.67,3.33,6.83,3.54,Good Service
+487,6,4.33,3.33,7.67,2.25,Good Service
+488,3,6.0,3.61,5.0,3.46,Needs Improvement
+489,8,6.0,2.39,6.25,2.76,Needs Improvement
+490,1,8.0,0.0,8.0,0.0,Excellent
+491,8,5.0,2.73,6.38,3.2,Very Satisfied
+492,4,4.75,2.22,5.75,2.22,Good Service
+493,7,3.0,2.0,6.14,2.54,Good Service
+494,3,5.0,3.46,6.67,2.52,Needs Improvement
+495,5,6.0,2.45,5.0,2.92,Good Service
+496,2,3.5,2.12,5.5,2.12,Needs Improvement
+497,5,4.8,4.09,6.8,1.79,Good Service
+498,4,6.5,3.7,4.5,1.73,Good Service
+499,6,5.17,2.93,5.83,2.48,Unsatisfactory
+500,3,3.67,3.06,3.67,4.62,Unsatisfactory
+501,5,4.4,4.22,4.4,3.51,Good Service
+502,4,5.0,3.16,6.25,1.71,Good Service
+503,2,9.0,1.41,5.0,4.24,Good Service
+504,5,5.2,3.42,5.4,1.82,Good Service
+505,4,7.25,2.5,6.5,1.73,Good Service
+506,7,4.29,2.21,3.14,2.27,Unsatisfactory
+507,3,4.33,3.51,8.0,3.46,Needs Improvement
+508,9,3.22,1.92,5.67,2.92,Good Service
+509,11,6.77,3.57,6.0,3.38,Good Service
+510,3,2.33,1.53,4.67,3.51,Good Service
+511,4,6.0,4.62,7.5,3.11,Needs Improvement
+512,5,5.8,2.59,6.0,2.92,Very Satisfied
+513,8,5.12,3.23,5.25,3.62,Very Satisfied
+514,3,6.33,4.73,6.33,4.73,Very Satisfied
+515,5,4.6,3.21,4.4,2.41,Unsatisfactory
+516,3,5.0,3.46,3.33,1.53,Good Service
+517,4,6.0,3.74,6.25,3.77,Very Satisfied
+518,5,4.8,3.11,4.6,3.78,Good Service
+519,5,5.0,2.92,6.6,1.52,Needs Improvement
+520,2,6.0,1.41,3.5,2.12,Very Satisfied
+521,4,5.75,1.26,8.25,1.5,Good Service
+522,7,5.71,2.5,6.29,2.63,Good Service
+523,3,6.33,4.04,6.67,0.58,Good Service
+524,6,8.0,1.9,6.33,3.08,Good Service
+525,7,5.0,2.77,4.0,2.31,Excellent
+526,6,5.5,2.59,5.0,2.76,Good Service
+527,3,5.33,4.04,3.67,2.89,Very Satisfied
+528,8,4.5,2.98,5.75,3.77,Excellent
+529,6,5.5,2.81,5.83,3.66,Unsatisfactory
+530,6,5.67,3.67,6.17,3.76,Unsatisfactory
+531,8,6.38,2.97,4.75,2.38,Good Service
+532,4,4.5,3.51,5.0,2.94,Unsatisfactory
+533,5,5.6,3.44,3.0,2.83,Very Satisfied
+534,4,4.0,1.83,4.25,4.03,Good Service
+535,2,5.5,3.54,4.5,3.54,Good Service
+536,6,4.17,3.19,5.17,1.72,Good Service
+537,4,6.25,3.59,5.0,1.83,Very Satisfied
+538,6,6.33,2.88,3.83,1.94,Good Service
+539,5,6.6,2.3,6.8,1.3,Good Service
+540,6,5.17,3.97,6.5,3.51,Good Service
+541,3,6.67,4.16,4.33,3.51,Needs Improvement
+542,3,7.33,2.08,7.0,4.36,Unsatisfactory
+543,5,5.0,2.92,4.6,1.14,Very Satisfied
+544,5,4.6,0.89,7.0,2.35,Good Service
+545,3,5.0,4.0,6.67,1.53,Needs Improvement
+546,4,6.0,3.27,4.25,1.71,Very Satisfied
+547,7,6.79,2.31,4.14,2.97,Needs Improvement
+548,5,6.4,1.82,7.0,2.45,Needs Improvement
+549,9,5.44,3.43,4.22,2.11,Needs Improvement
+550,7,5.71,2.14,7.0,3.11,Very Satisfied
+551,4,6.0,2.94,8.5,2.38,Needs Improvement
+552,5,5.4,3.91,6.6,2.61,Excellent
+553,7,5.57,3.91,6.29,2.87,Very Satisfied
+554,5,7.2,3.03,6.2,1.92,Needs Improvement
+555,5,7.8,1.79,5.4,3.05,Excellent
+556,7,5.29,2.36,6.43,2.99,Very Satisfied
+557,3,3.33,3.21,6.0,1.0,Good Service
+558,5,6.4,3.91,5.4,3.85,Needs Improvement
+559,6,7.67,2.66,6.67,2.25,Unsatisfactory
+560,3,5.67,2.08,8.0,1.0,Good Service
+561,6,6.0,2.28,7.17,3.43,Needs Improvement
+562,4,6.0,2.94,4.25,2.22,Good Service
+563,6,5.83,2.48,8.17,2.4,Good Service
+564,2,5.5,4.95,5.5,4.95,Needs Improvement
+565,3,6.33,4.04,7.33,4.62,Unsatisfactory
+566,6,6.33,2.58,5.17,3.49,Unsatisfactory
+567,1,8.0,0.0,3.0,0.0,Unsatisfactory
+568,4,5.0,3.56,3.25,2.06,Good Service
+569,6,4.83,3.25,3.33,2.5,Unsatisfactory
+570,5,7.0,3.16,5.0,2.0,Unsatisfactory
+571,7,3.71,2.81,5.57,2.64,Good Service
+572,6,6.0,2.76,6.17,2.93,Needs Improvement
+573,9,5.11,3.18,6.67,2.6,Very Satisfied
+574,4,6.75,2.5,7.0,2.31,Good Service
+575,5,7.0,1.87,3.8,3.9,Needs Improvement
+576,7,5.57,2.07,6.0,2.58,Unsatisfactory
+577,2,4.5,4.95,2.0,1.41,Very Satisfied
+578,6,4.83,2.79,6.67,2.73,Good Service
+579,8,4.5,2.45,6.0,2.39,Needs Improvement
+580,5,4.0,2.24,6.2,3.35,Very Satisfied
+581,4,6.75,1.26,4.25,1.71,Very Satisfied
+582,7,6.43,2.37,5.43,3.05,Good Service
+583,6,6.17,2.99,5.33,2.94,Good Service
+584,6,2.83,1.83,5.0,2.83,Very Satisfied
+585,6,6.0,3.16,7.17,2.04,Needs Improvement
+586,4,5.75,2.36,6.5,3.11,Good Service
+587,4,5.25,3.5,4.75,2.63,Needs Improvement
+588,3,5.0,3.61,7.67,1.15,Good Service
+589,2,5.5,4.95,5.0,1.41,Unsatisfactory
+590,4,2.75,2.36,5.75,4.03,Needs Improvement
+591,4,7.75,2.63,3.75,1.89,Good Service
+592,5,5.8,3.96,7.4,1.95,Unsatisfactory
+593,4,5.0,3.74,5.75,2.22,Needs Improvement
+594,5,6.8,2.95,5.8,0.84,Needs Improvement
+595,2,5.0,5.66,5.5,3.54,Needs Improvement
+596,5,5.8,3.19,3.4,3.05,Good Service
+597,5,5.9,3.09,7.0,2.74,Needs Improvement
+598,6,5.5,2.88,6.83,3.31,Very Satisfied
+599,4,4.25,1.5,5.25,2.87,Unsatisfactory
+600,4,4.25,0.96,6.0,3.56,Needs Improvement
+601,6,5.0,2.9,6.67,3.33,Needs Improvement
+602,2,5.0,2.83,8.0,0.0,Very Satisfied
+603,3,8.33,1.15,2.0,1.73,Very Satisfied
+604,5,4.6,3.78,4.6,1.34,Unsatisfactory
+605,4,5.75,2.06,3.5,2.89,Good Service
+606,3,8.67,1.53,5.33,2.08,Needs Improvement
+607,2,9.0,1.41,9.5,0.71,Good Service
+608,6,5.5,3.73,6.33,2.34,Good Service
+609,4,6.75,3.4,3.0,2.31,Good Service
+610,5,3.8,3.7,7.0,1.58,Unsatisfactory
+611,5,6.6,2.7,6.2,3.27,Needs Improvement
+612,4,8.25,2.87,5.75,1.89,Excellent
+613,4,3.5,1.91,6.5,3.42,Needs Improvement
+614,6,6.67,3.01,6.67,2.94,Very Satisfied
+615,5,8.1,1.88,5.8,3.27,Good Service
+616,5,4.2,2.77,5.0,1.0,Good Service
+617,5,4.8,3.56,5.2,3.27,Good Service
+618,9,5.44,2.51,5.56,2.3,Needs Improvement
+619,3,6.67,1.53,6.0,3.61,Unsatisfactory
+620,5,7.8,2.39,6.8,2.39,Very Satisfied
+621,4,5.5,3.87,6.25,4.35,Good Service
+622,3,4.67,3.79,7.67,3.21,Very Satisfied
+623,9,5.89,2.42,4.11,2.03,Good Service
+624,3,5.67,1.53,5.67,3.21,Very Satisfied
+625,6,3.33,2.88,5.33,3.44,Needs Improvement
+626,8,5.88,2.36,5.38,3.46,Unsatisfactory
+627,5,5.6,2.3,4.8,2.59,Very Satisfied
+628,4,6.25,2.22,7.25,2.06,Needs Improvement
+629,7,5.86,2.54,5.0,2.38,Very Satisfied
+630,5,2.6,1.14,3.0,2.83,Good Service
+631,5,6.2,2.86,5.2,2.77,Very Satisfied
+632,5,5.8,2.28,5.6,2.61,Good Service
+633,5,7.2,3.03,4.8,2.05,Good Service
+634,4,5.75,3.69,5.75,3.3,Good Service
+635,4,7.25,2.5,7.5,2.38,Very Satisfied
+636,2,9.5,0.71,7.5,2.12,Unsatisfactory
+637,10,5.8,2.94,7.1,3.07,Unsatisfactory
+638,7,6.43,2.99,5.86,2.27,Good Service
+639,5,5.6,2.88,4.8,3.19,Unsatisfactory
+640,4,8.0,2.16,7.75,1.26,Unsatisfactory
+641,2,8.5,2.12,3.5,0.71,Very Satisfied
+642,4,2.75,2.22,4.5,2.89,Very Satisfied
+643,9,7.11,2.89,5.67,2.83,Very Satisfied
+644,4,5.75,1.71,7.75,2.63,Very Satisfied
+645,5,6.6,3.29,4.6,2.88,Needs Improvement
+646,6,3.83,2.56,4.33,3.08,Good Service
+647,2,5.5,6.36,7.5,3.54,Very Satisfied
+648,3,6.33,4.73,7.0,1.73,Needs Improvement
+649,11,5.55,2.81,4.64,3.35,Very Satisfied
+650,4,6.25,3.86,7.0,2.58,Very Satisfied
+651,6,4.17,3.6,6.0,3.03,Good Service
+652,3,7.0,0.0,5.33,3.21,Unsatisfactory
+653,8,6.5,2.27,7.12,2.36,Good Service
+654,3,7.0,3.0,8.67,1.15,Good Service
+655,6,6.83,2.93,4.33,3.2,Unsatisfactory
+656,4,8.25,2.87,6.0,2.94,Excellent
+657,7,5.57,2.7,5.14,3.13,Very Satisfied
+658,5,2.6,1.82,6.4,3.36,Very Satisfied
+659,4,5.0,1.63,4.75,3.1,Excellent
+660,5,6.6,3.21,7.8,1.92,Needs Improvement
+661,4,6.0,2.94,4.75,1.5,Unsatisfactory
+662,5,5.0,3.39,5.6,3.13,Needs Improvement
+663,8,3.12,1.96,6.0,3.21,Unsatisfactory
+664,6,6.5,3.51,4.83,3.19,Unsatisfactory
+665,5,4.2,3.35,5.2,4.02,Very Satisfied
+666,6,5.0,2.53,5.83,2.14,Good Service
+667,7,6.71,2.14,4.0,3.46,Needs Improvement
+668,5,5.8,2.59,2.4,0.89,Needs Improvement
+669,7,3.86,2.48,4.43,2.7,Very Satisfied
+670,5,3.2,2.17,6.6,1.95,Good Service
+671,2,5.0,5.66,6.5,4.95,Needs Improvement
+672,6,7.0,1.26,6.83,3.37,Good Service
+673,3,5.33,3.06,7.0,5.2,Very Satisfied
+674,5,6.2,3.27,4.4,2.97,Very Satisfied
+675,6,5.17,4.26,5.5,2.88,Unsatisfactory
+676,6,7.5,2.88,4.0,2.97,Unsatisfactory
+677,3,5.67,3.06,3.67,4.62,Good Service
+678,6,3.5,2.43,5.0,3.74,Needs Improvement
+679,8,5.25,2.87,6.75,4.06,Unsatisfactory
+680,9,5.56,2.74,4.22,2.28,Good Service
+681,3,6.0,3.46,4.0,2.0,Very Satisfied
+682,6,5.33,2.58,6.83,2.48,Unsatisfactory
+683,7,5.29,2.29,7.29,3.09,Needs Improvement
+684,4,6.25,2.22,3.75,2.22,Very Satisfied
+685,3,4.67,4.04,4.33,2.52,Good Service
+686,3,6.0,2.65,8.33,1.53,Good Service
+687,2,8.5,0.71,5.0,4.24,Excellent
+688,3,4.33,2.08,3.33,0.58,Excellent
+689,4,8.0,1.83,5.0,4.08,Very Satisfied
+690,5,7.2,2.68,6.2,2.59,Very Satisfied
+691,4,6.5,4.36,4.75,2.99,Good Service
+692,5,7.0,2.12,6.0,2.24,Unsatisfactory
+693,6,6.17,1.72,5.67,2.58,Very Satisfied
+694,6,7.67,3.01,5.67,2.8,Excellent
+695,6,5.83,3.54,4.0,2.37,Very Satisfied
+696,2,4.0,1.41,8.5,0.71,Good Service
+697,8,6.88,3.76,6.38,3.54,Very Satisfied
+698,4,7.5,2.65,4.75,2.87,Good Service
+699,6,7.17,1.17,3.33,1.03,Good Service
+700,4,4.5,4.12,7.25,1.71,Needs Improvement
+701,8,4.38,2.45,5.62,3.29,Very Satisfied
+702,4,6.5,4.12,5.25,3.77,Unsatisfactory
+703,5,6.0,3.39,4.0,2.55,Good Service
+704,4,7.75,2.06,4.5,4.36,Needs Improvement
+705,3,8.33,1.53,4.0,2.0,Unsatisfactory
+706,4,2.75,2.22,2.25,1.26,Good Service
+707,5,5.0,3.32,5.6,2.3,Good Service
+708,5,5.4,2.61,4.6,3.78,Very Satisfied
+709,4,6.0,2.16,4.25,3.4,Unsatisfactory
+710,3,8.0,3.46,4.33,3.21,Good Service
+711,4,7.0,2.16,5.75,3.3,Good Service
+712,4,5.5,2.89,4.5,1.91,Good Service
+713,4,3.5,3.11,3.25,3.86,Good Service
+714,3,6.0,4.0,2.33,1.53,Needs Improvement
+715,5,1.0,0.0,5.8,3.03,Needs Improvement
+716,6,3.5,2.74,6.67,3.83,Needs Improvement
+717,8,4.75,3.28,6.25,1.67,Good Service
+718,6,3.67,1.97,6.17,2.99,Needs Improvement
+719,4,5.25,2.63,7.25,2.5,Needs Improvement
+720,8,6.12,1.46,5.12,2.53,Good Service
+721,5,5.8,1.48,2.8,2.05,Good Service
+722,6,5.17,3.82,4.33,2.66,Very Satisfied
+723,7,4.57,2.7,6.86,2.79,Good Service
+724,7,4.86,2.04,3.57,2.57,Needs Improvement
+725,2,6.0,5.66,4.5,0.71,Unsatisfactory
+726,3,5.0,3.46,5.67,2.31,Good Service
+727,7,7.0,3.51,5.14,3.67,Very Satisfied
+728,6,6.0,2.28,5.83,2.71,Unsatisfactory
+729,4,5.75,3.1,4.0,1.41,Good Service
+730,9,4.22,2.39,6.33,3.46,Good Service
+731,3,5.67,2.89,2.33,2.31,Good Service
+732,6,5.83,3.76,5.0,3.16,Needs Improvement
+733,5,5.7,2.17,7.0,1.87,Good Service
+734,6,3.83,3.37,4.33,3.14,Good Service
+735,6,6.0,2.97,5.67,2.8,Very Satisfied
+736,5,7.6,2.07,3.6,1.52,Needs Improvement
+737,8,6.12,2.85,7.25,1.83,Good Service
+738,4,4.75,3.86,7.0,3.56,Good Service
+739,6,5.33,1.86,4.5,2.74,Needs Improvement
+740,3,9.0,1.0,6.0,0.0,Good Service
+741,2,8.0,1.41,7.5,2.12,Good Service
+742,7,5.14,2.41,5.57,2.51,Needs Improvement
+743,5,6.0,3.94,7.0,2.55,Needs Improvement
+744,3,7.0,3.61,6.33,1.15,Unsatisfactory
+745,3,7.67,3.21,5.0,3.61,Unsatisfactory
+746,4,4.5,2.89,8.75,0.96,Very Satisfied
+747,4,6.75,1.5,4.5,4.12,Very Satisfied
+748,5,5.8,3.83,6.6,3.36,Good Service
+749,5,5.2,3.27,7.6,2.79,Very Satisfied
+750,7,6.71,3.4,6.71,3.04,Unsatisfactory
+751,1,10.0,0.0,10.0,0.0,Unsatisfactory
+752,3,8.67,1.15,4.67,1.15,Needs Improvement
+753,5,4.0,3.32,5.8,2.95,Good Service
+754,7,6.57,2.44,5.57,2.99,Excellent
+755,6,7.0,1.67,6.0,3.16,Good Service
+756,7,4.86,2.97,4.0,3.56,Good Service
+757,6,6.83,1.6,6.83,2.4,Unsatisfactory
+758,5,3.6,3.65,8.4,1.14,Good Service
+759,3,7.33,2.52,6.33,2.31,Very Satisfied
+760,4,4.0,3.37,4.0,2.45,Unsatisfactory
+761,4,5.75,0.96,8.75,1.5,Needs Improvement
+762,3,4.0,0.0,4.67,0.58,Very Satisfied
+763,7,6.57,1.51,6.0,3.11,Good Service
+764,3,5.67,2.08,4.33,2.89,Good Service
+765,6,4.17,2.32,5.83,3.13,Excellent
+766,8,4.62,2.67,4.38,2.97,Very Satisfied
+767,5,5.2,1.3,7.0,2.45,Good Service
+768,8,7.75,1.98,4.75,2.6,Excellent
+769,3,3.67,1.15,5.67,3.21,Excellent
+770,6,6.0,2.28,5.0,2.9,Needs Improvement
+771,3,6.0,3.61,4.0,1.0,Excellent
+772,4,5.25,3.3,6.25,2.06,Good Service
+773,4,5.75,3.86,6.25,1.71,Good Service
+774,7,7.29,1.38,6.86,3.8,Good Service
+775,3,7.33,3.06,7.33,3.06,Needs Improvement
+776,2,3.5,2.12,6.5,0.71,Needs Improvement
+777,7,4.36,3.01,6.0,3.32,Good Service
+778,5,3.4,2.19,6.0,0.71,Needs Improvement
+779,3,4.0,3.46,4.33,2.31,Very Satisfied
+780,4,3.5,1.29,7.5,1.73,Very Satisfied
+781,5,5.4,2.88,5.6,3.05,Good Service
+782,2,6.5,0.71,2.0,1.41,Very Satisfied
+783,6,6.0,3.29,5.0,4.15,Good Service
+784,3,7.67,1.53,7.0,3.61,Needs Improvement
+785,4,7.0,3.37,6.5,2.38,Excellent
+786,2,7.0,2.83,8.5,2.12,Good Service
+787,7,5.0,2.16,4.57,3.41,Needs Improvement
+788,3,5.67,1.53,4.33,2.52,Unsatisfactory
+789,3,2.67,2.08,7.67,2.08,Excellent
+790,6,4.5,3.21,5.17,2.32,Good Service
+791,5,4.8,1.92,5.4,2.7,Unsatisfactory
+792,4,4.75,3.5,5.5,3.7,Excellent
+793,2,6.0,2.83,3.0,1.41,Needs Improvement
+794,10,3.9,2.23,5.8,1.62,Needs Improvement
+795,4,8.5,1.91,1.75,0.96,Good Service
+796,10,6.5,2.72,6.3,3.37,Unsatisfactory
+797,1,2.0,0.0,4.0,0.0,Very Satisfied
+798,6,6.83,3.19,4.33,3.56,Needs Improvement
+799,4,6.75,3.3,6.25,3.86,Good Service
+800,1,8.0,0.0,10.0,0.0,Very Satisfied
+801,1,8.0,0.0,7.0,0.0,Unsatisfactory
+802,4,6.75,2.75,6.5,3.11,Unsatisfactory
+803,4,4.5,3.42,3.5,3.0,Good Service
+804,4,8.0,1.63,4.5,2.52,Good Service
+805,4,8.25,2.22,3.0,2.16,Good Service
+806,6,5.33,3.27,3.17,2.14,Good Service
+807,5,6.0,3.39,5.0,0.71,Very Satisfied
+808,5,5.6,2.3,5.8,3.7,Needs Improvement
+809,6,6.33,3.14,5.83,3.13,Unsatisfactory
+810,5,4.8,2.59,4.6,2.88,Needs Improvement
+811,5,6.6,1.95,8.4,1.14,Good Service
+812,4,4.75,2.06,5.0,2.58,Needs Improvement
+813,5,8.0,2.45,3.8,0.84,Unsatisfactory
+814,5,6.0,2.74,4.4,1.82,Very Satisfied
+815,5,5.1,2.3,6.8,3.11,Very Satisfied
+816,10,7.4,1.65,5.6,3.6,Needs Improvement
+817,6,6.0,3.03,6.5,3.73,Unsatisfactory
+818,4,7.5,1.0,4.5,4.12,Good Service
+819,2,5.0,0.0,6.5,2.12,Unsatisfactory
+820,5,6.8,2.95,5.2,2.95,Needs Improvement
+821,6,7.0,2.45,6.5,3.39,Excellent
+822,6,5.17,2.79,7.33,2.34,Unsatisfactory
+823,3,4.67,3.06,6.33,2.52,Very Satisfied
+824,5,4.8,2.59,6.8,2.49,Very Satisfied
+825,3,6.0,1.73,9.67,0.58,Good Service
+826,6,6.17,2.93,5.5,2.88,Needs Improvement
+827,2,5.5,2.12,4.0,4.24,Good Service
+828,8,5.88,2.64,5.88,1.73,Unsatisfactory
+829,4,5.25,2.06,5.75,3.2,Very Satisfied
+830,3,5.33,2.52,2.67,1.15,Good Service
+831,4,4.25,3.4,5.0,3.46,Needs Improvement
+832,8,4.62,2.33,7.12,3.23,Good Service
+833,5,4.4,2.3,5.2,3.83,Very Satisfied
+834,2,6.0,0.0,2.5,0.71,Unsatisfactory
+835,4,4.25,1.71,5.5,4.2,Unsatisfactory
+836,6,6.5,3.08,6.5,2.35,Good Service
+837,4,6.25,2.5,5.0,3.65,Very Satisfied
+838,3,2.67,2.89,4.33,2.52,Needs Improvement
+839,3,7.33,2.52,4.33,2.08,Very Satisfied
+840,3,5.0,4.36,3.0,1.0,Needs Improvement
+841,6,6.0,3.16,4.17,2.64,Unsatisfactory
+842,9,6.56,1.13,5.11,2.8,Unsatisfactory
+843,2,9.5,0.71,5.0,4.24,Unsatisfactory
+844,4,6.0,3.16,6.75,3.59,Excellent
+845,6,5.67,2.66,5.5,1.76,Needs Improvement
+846,6,7.33,3.33,4.33,3.14,Needs Improvement
+847,7,4.86,2.79,3.71,2.06,Good Service
+848,6,6.5,3.02,6.17,3.37,Very Satisfied
+849,3,8.0,1.73,5.33,3.06,Good Service
+850,7,5.57,3.41,5.43,2.76,Excellent
+851,5,4.4,2.7,5.8,2.28,Good Service
+852,5,7.4,2.88,2.8,1.48,Excellent
+853,2,8.5,0.71,8.5,2.12,Good Service
+854,2,7.5,3.54,8.5,0.71,Unsatisfactory
+855,6,4.17,2.23,3.33,2.16,Good Service
+856,7,4.43,1.81,5.14,2.97,Good Service
+857,2,5.0,2.83,7.0,2.83,Good Service
+858,3,5.0,4.58,5.33,4.16,Very Satisfied
+859,4,6.75,2.22,4.5,2.08,Good Service
+860,4,4.25,3.2,7.75,2.87,Very Satisfied
+861,5,5.2,3.27,6.4,2.51,Needs Improvement
+862,6,5.0,2.28,4.83,3.31,Unsatisfactory
+863,6,6.0,1.55,6.33,3.67,Good Service
+864,3,6.67,4.93,3.33,0.58,Good Service
+865,6,5.5,2.59,6.33,2.73,Good Service
+866,3,7.0,0.0,3.33,0.58,Very Satisfied
+867,10,4.4,3.06,5.9,3.07,Very Satisfied
+868,8,5.62,2.13,5.5,2.27,Good Service
+869,6,6.33,2.73,4.67,3.44,Very Satisfied
+870,7,7.43,2.82,4.71,2.56,Very Satisfied
+871,5,6.0,2.45,5.6,1.95,Good Service
+872,3,4.33,3.21,5.67,4.04,Excellent
+873,6,4.17,2.56,5.0,2.83,Unsatisfactory
+874,6,6.0,1.1,4.17,3.43,Good Service
+875,5,5.2,3.42,5.2,2.39,Good Service
+876,6,4.33,3.2,5.83,3.19,Good Service
+877,8,5.62,3.42,4.88,3.36,Good Service
+878,9,5.67,3.39,4.89,2.8,Needs Improvement
+879,5,4.2,1.79,5.4,3.78,Unsatisfactory
+880,5,6.6,2.41,8.0,2.35,Good Service
+881,5,4.2,3.11,5.8,2.59,Very Satisfied
+882,6,5.83,3.43,3.17,3.54,Excellent
+883,7,4.57,3.46,6.43,3.1,Good Service
+884,6,8.0,2.68,4.5,3.08,Very Satisfied
+885,5,7.4,1.82,6.0,4.58,Good Service
+886,2,6.0,0.0,9.5,0.71,Good Service
+887,7,5.43,2.94,3.86,2.19,Good Service
+888,5,6.4,1.82,7.2,2.59,Needs Improvement
+889,5,5.0,3.08,5.6,2.7,Good Service
+890,3,3.0,1.0,5.67,1.15,Unsatisfactory
+891,5,7.2,3.42,6.6,3.51,Very Satisfied
+892,3,7.0,2.65,5.67,0.58,Unsatisfactory
+893,4,5.25,3.86,5.25,4.35,Unsatisfactory
+894,8,5.88,3.04,5.62,3.58,Very Satisfied
+895,7,7.0,2.71,5.0,3.16,Unsatisfactory
+896,8,6.38,3.2,5.0,3.3,Needs Improvement
+897,4,4.75,2.99,6.75,3.3,Unsatisfactory
+898,8,5.38,2.62,6.88,2.75,Very Satisfied
+899,6,6.83,1.72,7.17,2.48,Good Service
+900,5,6.4,2.3,4.4,0.55,Needs Improvement
+901,8,6.25,3.15,5.62,3.46,Unsatisfactory
+902,2,3.5,3.54,7.0,2.83,Unsatisfactory
+903,6,3.67,1.86,3.83,3.19,Excellent
+904,2,6.0,5.66,8.5,2.12,Unsatisfactory
+905,6,3.67,2.07,4.17,2.04,Good Service
+906,2,9.0,0.0,5.5,6.36,Good Service
+907,5,3.6,1.82,6.2,3.49,Needs Improvement
+908,8,5.88,2.3,6.38,3.81,Good Service
+909,6,5.5,2.66,4.67,2.58,Needs Improvement
+910,5,6.6,3.65,6.2,3.27,Unsatisfactory
+911,6,5.33,2.8,3.83,2.64,Good Service
+912,5,5.8,2.77,6.0,4.18,Needs Improvement
+913,4,6.0,2.94,6.0,1.41,Very Satisfied
+914,6,5.67,3.39,3.67,2.88,Needs Improvement
+915,6,4.33,3.14,5.17,3.43,Excellent
+916,7,2.71,2.06,5.0,3.21,Needs Improvement
+917,6,6.83,2.99,5.67,3.14,Needs Improvement
+918,5,7.0,3.32,7.6,1.95,Good Service
+919,5,2.4,1.52,6.2,2.28,Good Service
+920,6,5.33,3.08,6.33,3.27,Good Service
+921,7,5.43,3.78,5.29,2.36,Good Service
+922,5,5.0,3.74,5.4,3.36,Good Service
+923,5,3.4,2.19,6.2,3.9,Good Service
+924,2,7.5,0.71,6.5,3.54,Very Satisfied
+925,7,6.43,2.88,5.71,3.04,Good Service
+926,8,8.88,1.71,5.5,2.98,Good Service
+927,2,2.5,0.71,7.5,2.12,Excellent
+928,9,5.33,2.45,6.0,2.69,Needs Improvement
+929,5,4.8,1.3,4.8,1.79,Very Satisfied
+930,6,3.83,2.71,6.17,2.48,Needs Improvement
+931,5,8.0,2.92,6.8,2.86,Good Service
+932,6,5.17,2.79,6.17,3.92,Needs Improvement
+933,6,5.0,2.0,7.0,3.29,Needs Improvement
+934,6,5.83,3.13,3.17,1.83,Unsatisfactory
+935,5,4.8,3.9,6.6,2.79,Excellent
+936,7,5.57,2.99,6.0,1.63,Unsatisfactory
+937,10,4.6,3.2,5.5,2.64,Needs Improvement
+938,6,4.67,3.2,4.5,3.51,Unsatisfactory
+939,3,5.33,3.51,7.67,1.53,Excellent
+940,7,5.57,2.57,5.14,3.53,Unsatisfactory
+941,2,7.0,0.0,5.5,4.95,Excellent
+942,2,3.5,2.12,5.5,3.54,Good Service
+943,3,6.5,1.5,4.33,3.06,Very Satisfied
+944,6,5.5,3.21,2.67,1.37,Unsatisfactory
+945,7,5.86,2.04,5.71,3.35,Good Service
+946,4,7.25,4.27,7.5,0.58,Good Service
+947,5,7.2,3.03,5.8,3.19,Good Service
+948,5,6.8,3.7,6.6,2.79,Unsatisfactory
+949,3,5.67,4.04,7.33,1.53,Needs Improvement
+950,4,4.75,3.59,5.5,3.11,Needs Improvement
+951,3,2.33,0.58,7.0,2.65,Good Service
+952,8,6.5,2.78,6.12,3.64,Unsatisfactory
+953,3,5.33,2.08,7.0,2.0,Good Service
+954,10,4.5,3.17,5.3,2.87,Good Service
+955,4,3.25,0.96,4.5,3.42,Good Service
+956,7,5.29,3.35,4.71,1.98,Needs Improvement
+957,5,5.2,3.27,5.4,3.21,Excellent
+958,4,3.75,1.71,5.5,3.11,Needs Improvement
+959,12,5.5,3.18,5.25,2.38,Unsatisfactory
+960,4,4.25,2.5,4.75,3.2,Unsatisfactory
+961,7,5.57,2.82,5.71,3.45,Unsatisfactory
+962,6,7.33,1.75,6.33,3.5,Good Service
+963,5,5.6,2.97,6.6,2.97,Very Satisfied
+964,2,6.0,0.0,5.0,1.41,Very Satisfied
+965,5,8.0,1.0,4.0,2.92,Good Service
+966,3,3.67,2.89,6.33,2.31,Needs Improvement
+967,5,7.4,1.95,3.4,2.07,Good Service
+968,2,6.5,4.95,2.5,2.12,Needs Improvement
+969,3,5.33,2.89,5.67,3.21,Unsatisfactory
+970,4,5.0,2.94,2.25,1.89,Very Satisfied
+971,5,4.6,3.51,5.4,2.88,Good Service
+972,3,3.67,3.06,5.0,3.46,Good Service
+973,8,6.62,2.2,5.0,2.67,Good Service
+974,3,5.33,4.51,6.33,4.04,Very Satisfied
+975,7,5.43,3.1,5.86,3.53,Good Service
+976,7,5.14,4.22,6.0,2.45,Very Satisfied
+977,3,6.0,3.0,4.67,0.58,Unsatisfactory
+978,2,5.5,3.54,4.5,2.12,Needs Improvement
+979,4,7.0,2.94,4.75,1.5,Unsatisfactory
+980,5,5.8,4.09,5.8,4.09,Good Service
+981,3,7.0,3.46,4.0,5.2,Unsatisfactory
+982,5,6.2,3.27,7.2,2.05,Needs Improvement
+983,5,5.6,2.51,6.6,3.36,Good Service
+984,8,8.0,2.0,6.75,3.58,Very Satisfied
+985,5,5.2,4.02,5.4,3.29,Very Satisfied
+986,5,8.2,2.05,5.8,3.11,Very Satisfied
+987,5,5.8,3.27,4.6,2.79,Unsatisfactory
+988,6,4.5,3.62,6.67,2.42,Unsatisfactory
+989,5,4.2,2.86,7.2,3.83,Unsatisfactory
+990,7,5.93,3.14,4.57,3.95,Needs Improvement
+991,2,6.0,4.24,5.5,2.12,Needs Improvement
+992,1,7.0,0.0,2.0,0.0,Needs Improvement
+993,8,4.88,3.31,5.0,2.73,Good Service
+994,3,5.67,2.08,2.33,0.58,Needs Improvement
+995,3,6.33,3.79,6.67,2.89,Good Service
+996,2,9.0,1.41,8.5,2.12,Good Service
+997,5,5.6,3.36,7.4,2.79,Needs Improvement
+998,9,5.22,2.33,5.0,2.83,Unsatisfactory
+999,5,7.0,2.24,6.8,2.28,Needs Improvement
+1000,4,4.25,1.71,8.0,2.16,Unsatisfactory
