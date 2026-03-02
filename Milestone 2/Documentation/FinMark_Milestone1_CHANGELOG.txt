@@ -1,0 +1,50 @@
+FinMark Milestone 1 — Progress Log (CHANGELOG)
+
+Purpose:
+Track major progress updates across preprocessing, feature engineering, EDA, and visualization
+from the start of Milestone 1 until the current version pushed to GitHub.
+
+------------------------------------------------------------
+[Milestone 1 - Initial Setup]
+- Organized project folder structure (cleaned/, features/, models/)
+- Added raw datasets and validated file integrity
+- Created baseline notebook and set up imports/config
+
+[Preprocessing Phase]
+- Loaded customers/products/transactions datasets
+- Checked missing values, duplicates, schema issues
+- Standardized column names and data types
+- Parsed datetime fields and validated transaction records
+- Produced cleaned outputs for analysis-ready datasets
+
+[Feature Engineering Phase]
+- Aggregated transaction-level data to customer-level features
+- Engineered spending + frequency metrics (total_spend, avg_spend, txn_count)
+- Engineered temporal features (recency, tenure, avg transaction hour)
+- Built behavioral proportions (weekend share, business hours share, time-of-day shares)
+- Added satisfaction/engagement metrics (winsorized satisfaction/LTR, feedback count)
+- Produced final customer_features table and saved outputs into /features
+
+[EDA Phase]
+- Conducted distribution checks for spend, frequency, and average transaction amounts
+- Created quartile-based segmentation Income_Group using Q1/Q3 cutoffs
+- Validated tier separation using mean comparison + box plots
+- Explored satisfaction behavior and relationship to spending
+- Explored customer timing behavior (weekday/weekend, business hours, day-of-week, time-of-day)
+- Built correlation matrix for engineered features
+
+[Visualization Refinement]
+- Adopted pastel theme (pink/orange/purple) for visual consistency
+- Improved donut chart percentage placement (labels inside rings)
+- Fixed overlapping legends and moved them outside plots where needed
+- Adjusted bar chart labels (inside bars for readability)
+- Improved correlation heatmap style for readability (lighter palette)
+- Re-clustered temporal charts into 2 grouped visual panels:
+  - Overall Activity Patterns
+  - Timing Detail
+
+[Final MS1 Outputs]
+- Notebook finalized with updated EDA section ordering and titles
+- Summary, Conclusion, and Key Insights updated to align with final results
+- Documentation folder created for GitHub push
+------------------------------------------------------------

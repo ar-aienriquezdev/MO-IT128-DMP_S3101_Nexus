@@ -1,0 +1,24 @@
+feature,group,description
+total_spend,Spending,Sum of all transaction amounts per customer (used as spend-based income proxy).
+avg_spend,Spending,Average transaction amount per customer.
+txn_count,Engagement,Number of transactions recorded for the customer.
+active_days,Engagement,Number of distinct transaction days for the customer.
+tenure_days,Temporal,Days between first and last observed transaction.
+recency_days,Temporal,Days since the most recent observed transaction (relative to dataset maximum date).
+pct_weekend_txn,Temporal,Share of transactions that occur on weekends.
+pct_business_hours_txn,Temporal,Share of transactions that occur during business hours (09:00–16:59).
+avg_txn_hour,Temporal,Average transaction hour (0–23).
+Income_Group,IncomeProxy,Low/Medium/High derived from percentile-based tiers of customer total_spend (transaction-based proxy).
+feedback_count,Feedback,Number of feedback entries recorded for the customer.
+satisfaction_mean,Feedback,Average satisfaction score per customer (from feedback records).
+ltr_mean,Feedback,Average likelihood-to-recommend per customer (from feedback records).
+pct_high_risk_txn,RiskProxy,Share of transactions classified as high-amount (>= 75th percentile of Transaction_Amount).
+high_risk_txn_count,RiskProxy,Count of high-amount transactions (>= 75th percentile of Transaction_Amount).
+count_type_bill_payment,TransactionMix,Count of transactions for this transaction type (per customer).
+count_type_investment,TransactionMix,Count of transactions for this transaction type (per customer).
+count_type_loan_payment,TransactionMix,Count of transactions for this transaction type (per customer).
+count_type_purchase,TransactionMix,Count of transactions for this transaction type (per customer).
+pct_tod_Afternoon,TimeOfDay,Proportion of transactions occurring in this time-of-day bucket (per customer).
+pct_tod_Evening,TimeOfDay,Proportion of transactions occurring in this time-of-day bucket (per customer).
+pct_tod_Morning,TimeOfDay,Proportion of transactions occurring in this time-of-day bucket (per customer).
+pct_tod_Night,TimeOfDay,Proportion of transactions occurring in this time-of-day bucket (per customer).
