@@ -2,7 +2,7 @@
 
 Customer segmentation analytics project for **MO-IT128 - Data Mining Principles** focusing on end-to-end data preparation, feature engineering, exploratory analysis, and clustering-based segmentation.
 
-> **Current Status:** ✅ **Milestone 1 Completed** — Ready to proceed to **Milestone 2 (Customer Segmentation)**
+> **Current Status:** ✅ **Milestone 1 Completed** + ✅ **Milestone 2 Completed (Customer Segmentation & Cluster Profiling)**
 
 ---
 
@@ -18,19 +18,18 @@ Customer segmentation analytics project for **MO-IT128 - Data Mining Principles*
 - **Abegail Imee Enriquez** — Lead Developer & Data Analyst  
 - **Francisco Cabangon** — MS 1 Team Leader & Data Analyst  
 - **Alvin Tubtub** — Quality Assurance Analyst  
-- **Jeffrey Dollopac** — Asst. Quality Assurance Analyst  
 
 ---
 
 ## Project Overview
 
-FinMark’s business case centers on understanding customer behavior using transaction and feedback signals. This project builds a clean, model-ready dataset and a well-structured feature table that supports customer segmentation in later stages.
+FinMark’s business case centers on understanding customer behavior using transaction and feedback signals. This project builds a clean, model-ready dataset and a well-structured feature table that supports customer segmentation and business-ready customer personas.
 
 **Primary objectives:**
 - Prepare and clean multi-source company datasets (transactions, products, customer feedback)
 - Engineer meaningful customer-level features (spending, engagement, temporal behavior, experience)
 - Use EDA + visualization to validate data quality, detect patterns, and support segmentation decisions
-- Progress into clustering and profiling for actionable customer segments (Milestone 2)
+- Perform clustering, profiling, and recommendations for actionable customer segments (Milestone 2)
 
 ---
 
@@ -69,28 +68,68 @@ A complete visual storyline was created to support segmentation readiness, inclu
 
 ---
 
+## Milestone 2 Summary (Completed ✅)
+
+Milestone 2 completes the **Customer Segmentation** stage using clustering and turns segments into **business-friendly personas** with recommendations.
+
+### What was built in Milestone 2
+**1) Pre-model checks**
+- Confirmed feature readiness for clustering (numeric selection, ID exclusions)
+- Applied standard scaling for fair distance-based clustering
+- Used PCA for stability/noise reduction (interpretation still based on original business features)
+
+**2) Clustering workflow**
+- Evaluated a range of **k** values using:
+  - **Elbow (Inertia)**
+  - **Silhouette**
+  - **Davies–Bouldin**
+  - **Calinski–Harabasz**
+- Selected **k = 4** to balance **statistical quality** with **business interpretability**
+- Visualized clusters in PCA space (PC1 vs PC2) with centroids
+
+**3) Segment profiling & business interpretation**
+- Produced cluster-size distribution and cluster profile comparisons vs overall averages
+- Created business-friendly segment names based on:
+  - **Monetary (Total Spend)**
+  - **Frequency (Txn Count)**
+  - **Recency (Recency Days)**
+  - **Satisfaction (Satisfaction Mean)**
+- Added stakeholder-ready recommendations per segment (retain, grow, win-back, service recovery)
+
+**4) Exports (Milestone 2 outputs)**
+- Saved customer assignments and cluster profile tables to a dedicated folder:
+  - `Milestone 2/Clusters/`
+
+---
+
 ## Repository Structure
 
 This repository is organized by milestone to keep work modular and submission-ready.
 
 .
 ├─ Milestone 1/
-│ ├─ Data/
-│ │ ├─ Raw/
-│ │ └─ Cleaned/
-│ ├─ Features/
-│ ├─ Notebook/
-│ └─ Documentation/
+│  ├─ Data/
+│  │  ├─ Raw/
+│  │  └─ Cleaned/
+│  ├─ Features/
+│  ├─ Notebook/
+│  └─ Documentation/
+├─ Milestone 2/
+│  ├─ Notebook/
+│  ├─ Clusters/
+│  └─ Documentation/
 └─ README.md
 
 
-> See `Milestone 1/Documentation/README.md` for detailed MS1 workflow, decisions, and output descriptions.
+> See `Milestone 1/Documentation/README.md` for detailed MS1 workflow, decisions, and output descriptions.  
+> See `Milestone 2/Documentation/README.md` for detailed MS2 workflow, segment definitions, and recommendations.
 
 ---
 
-## How to Run (Milestone 1)
+## How to Run
 
-1) Open the notebook inside:
+### Milestone 1
+1) Open:
 - `Milestone 1/Notebook/FinMark_Milestone1_Preprocessing_FeatureEngineering_EDA.ipynb`
 
 2) Ensure the raw datasets exist in:
@@ -102,35 +141,23 @@ This repository is organized by milestone to keep work modular and submission-re
 
 ---
 
-## Milestone 2 Plan (Next Phase 🚀)
+### Milestone 2 (Customer Segmentation)
+1) Open:
+- `Milestone 2/Notebook/FinMark_Milestone2_Clustering_Segmentation.ipynb`
 
-Milestone 2 will focus on **Customer Segmentation** and **cluster profiling** using the engineered feature table.
+2) Ensure Milestone 1 outputs are available (cleaned/features) in their expected folders:
+- `Milestone 1/Data/Cleaned/`
+- `Milestone 1/Features/`
 
-### Planned approach
-**1) Pre-model checks**
-- Review feature distributions and scaling strategy
-- Address multicollinearity where needed (feature selection or reduction)
-- Confirm stability of quartile tiers and core engineered metrics
-
-**2) Clustering workflow**
-- Standardize numeric features (e.g., StandardScaler)
-- Determine optimal number of clusters:
-  - Elbow method (inertia)
-  - Silhouette score
-  - (optional) Davies-Bouldin Index
-- Apply clustering methods:
-  - K-Means (primary)
-  - (optional) Hierarchical clustering for validation
-
-**3) Segment profiling & business interpretation**
-- Interpret each cluster using spending + timing + satisfaction behavior
-- Build a “segment profile card” per cluster (who they are, what they do, how to act)
-- Provide FinMark-ready recommendations (targeting, retention, campaign timing)
+3) Run the notebook top-to-bottom.
+- Cluster outputs will be saved to: `Milestone 2/Clusters/`
+  - `customer_cluster_assignments.csv`
+  - `cluster_profiles_means.csv`
 
 ---
 
 ## Notes
-- This project is designed for reproducibility: all key exports (cleaned + features) are saved and versionable.
+- This project is designed for reproducibility: all key exports (cleaned + features + clusters) are saved and versionable.
 - Naming conventions and documentation are included for academic and GitHub readiness.
 
 ---
