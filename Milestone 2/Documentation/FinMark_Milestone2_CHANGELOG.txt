@@ -1,0 +1,105 @@
+FINMARK CUSTOMER SEGMENTATION PROJECT (MO-IT128)
+MILESTONE 2 — CLUSTERING & SEGMENTATION
+CHANGELOG
+Last updated: 2026-03-08
+
+Legend:
+[ADD] Added
+[UPD] Updated
+[FIX] Fixed
+[RM]  Removed
+[NOTE] Notes / Rationale
+
+================================================================================
+MILESTONE 2 SUMMARY
+================================================================================
+Milestone 2 builds on Milestone 1 engineered customer features to produce:
+- A clustering-ready feature matrix (redundancy-trimmed)
+- PCA-reduced representation for stable clustering
+- K-Means clustering with defensible k selection
+- Cluster profiling + business-friendly segment naming
+- Validation via statistical testing (ANOVA + effect size)
+- Exported outputs into /Clusters for reuse and reporting
+
+================================================================================
+CHANGES (HIGH LEVEL)
+================================================================================
+
+[ADD] Milestone 2 notebook:
+      - Notebook/FinMark_Milestone2_Clustering_Segmentation.ipynb
+
+[ADD] Clustering outputs folder:
+      - /Clusters/
+        - customer_cluster_assignments.csv
+        - cluster_profiles_means.csv
+
+[ADD] End-to-end clustering pipeline sections:
+      - Feature selection (redundancy-aware trimming)
+      - Scaling + PCA (variance-retaining components)
+      - K evaluation (inertia, silhouette, Davies–Bouldin, Calinski–Harabasz)
+      - Final k justification (metrics + interpretability; explicit note on k=2 vs k=3)
+      - K-Means training and PCA scatter plot with centroids
+      - Cluster separation plots for key business variables
+      - ANOVA validation table (F-statistic, p-value, eta-squared)
+      - Segment naming + definitions + recommendations (business-facing)
+
+[UPD] Feature selection strategy:
+      - Reduced redundant “family” features (example: ltr_min/ltr_max variants, satisfaction min/max variants,
+        overlapping time-of-day buckets) and kept representative signals (e.g., mean-based metrics)
+      - Goal: lower multicollinearity and improve cluster separation
+
+[UPD] Correlation diagnostics:
+      - Consolidated correlation checks into one pre-PCA view focused on top-variation features
+      - Added interpretation prints to explain redundancy and why PCA follows
+
+[RM] Extra correlation heatmap:
+      - Removed duplicated correlation visualization to keep notebook cleaner
+
+[RM] Optional extra segmentation views (where not adding strong incremental value):
+      - Removed/trimmed extra plots when main PCA clustering visuals already explain cluster separation
+
+[FIX] Robust column detection and “NameError” prevention:
+      - Auto-picks existing column names across minor naming differences
+      - Avoids breaking cells when column labels differ across runs
+
+================================================================================
+RESULTS SNAPSHOT (FINAL RUN)
+================================================================================
+Chosen clustering model:
+- K-Means on PCA-transformed features
+
+Final k:
+- k = 3 (selected for stronger separation + interpretability after feature trimming + PCA)
+- k=2 noted as sometimes scoring higher on silhouette in noisy/overlapping real data, but too broad for actionable segmentation
+
+PCA:
+- Retained components: ~13 (to preserve most variance while reducing redundancy/noise)
+
+Business segments (k=3):
+- Cluster 0: Prime Value Loyalists
+- Cluster 1: Dormant Budget Drifters
+- Cluster 2: Slipping Value Builders
+
+Validation:
+- ANOVA used to confirm statistically meaningful differences across clusters on key features
+- Effect size (eta-squared) reported to show practical separation beyond p-values
+
+================================================================================
+NOTES / RATIONALE
+================================================================================
+[NOTE] Why redundancy trimming matters:
+- Redundant features inflate correlated signals and can make distance-based clustering less stable
+- Trimming improves interpretability and often yields cleaner cluster boundaries
+
+[NOTE] Why PCA was applied before K-Means:
+- PCA compresses correlated features into orthogonal components
+- Helps K-Means perform more reliably (centroid-based distance clustering works better with reduced multicollinearity)
+
+[NOTE] Why k selection is not “metrics-only”:
+- In real customer segmentation, the best “math” k can produce segments that are too broad (k=2)
+  or too granular (micro-segments), reducing business usability.
+- We choose k that balances quality metrics with actionability and stakeholder interpretability.
+
+================================================================================
+END OF CHANGELOG
+================================================================================

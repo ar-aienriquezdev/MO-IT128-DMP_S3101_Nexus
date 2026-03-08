@@ -16,14 +16,14 @@ Customer segmentation analytics project for **MO-IT128 - Data Mining Principles*
 
 **Authors/Analysts:**
 - **Abegail Imee Enriquez** — Lead Developer & Data Analyst  
-- **Francisco Cabangon** — MS 1 Team Leader & Data Analyst  
-- **Alvin Tubtub** — Quality Assurance Analyst  
+- **Francisco Cabangon** — Asst. Data Analyst  
+- **Alvin Tubtub** — Quality Assurance Analyst & Documentation  
 
 ---
 
 ## Project Overview
 
-FinMark’s business case centers on understanding customer behavior using transaction and feedback signals. This project builds a clean, model-ready dataset and a well-structured feature table that supports customer segmentation and business-ready customer personas.
+FinMark’s business case centers on understanding customer behavior using transaction and feedback signals. This project builds a clean, model-ready dataset and a feature table that supports clustering-based customer segmentation and business-ready personas.
 
 **Primary objectives:**
 - Prepare and clean multi-source company datasets (transactions, products, customer feedback)
@@ -73,31 +73,40 @@ A complete visual storyline was created to support segmentation readiness, inclu
 Milestone 2 completes the **Customer Segmentation** stage using clustering and turns segments into **business-friendly personas** with recommendations.
 
 ### What was built in Milestone 2
-**1) Pre-model checks**
-- Confirmed feature readiness for clustering (numeric selection, ID exclusions)
-- Applied standard scaling for fair distance-based clustering
-- Used PCA for stability/noise reduction (interpretation still based on original business features)
+**1) Pre-model checks + redundancy-aware feature selection**
+- Selected clustering-ready numeric features (excluded IDs and non-numeric fields)
+- Trimmed redundant/overlapping features (e.g., avoiding multiple min/max/mean variants)
+- Validated redundancy using a correlation check on the most informative features (pre-PCA)
 
-**2) Clustering workflow**
+**2) Scaling + PCA (for stability and noise reduction)**
+- Standardized features for distance-based clustering
+- Applied PCA to reduce multicollinearity while preserving most variance used for clustering  
+  *(cluster interpretation is still done using original business features, not PCA components)*
+
+**3) Clustering workflow**
 - Evaluated a range of **k** values using:
   - **Elbow (Inertia)**
   - **Silhouette**
   - **Davies–Bouldin**
   - **Calinski–Harabasz**
-- Selected **k = 4** to balance **statistical quality** with **business interpretability**
+- Selected **k = 3** to balance **metric quality** with **clear, stakeholder-usable segmentation**
 - Visualized clusters in PCA space (PC1 vs PC2) with centroids
 
-**3) Segment profiling & business interpretation**
-- Produced cluster-size distribution and cluster profile comparisons vs overall averages
-- Created business-friendly segment names based on:
-  - **Monetary (Total Spend)**
-  - **Frequency (Txn Count)**
-  - **Recency (Recency Days)**
-  - **Satisfaction (Satisfaction Mean)**
-- Added stakeholder-ready recommendations per segment (retain, grow, win-back, service recovery)
+**4) Validation + profiling**
+- Computed cluster size distribution and cluster profiles vs overall averages
+- Validated differences between clusters using **ANOVA** (F-statistic, p-value, η² effect size)
+- Assigned business-friendly segment names and recommendations
 
-**4) Exports (Milestone 2 outputs)**
-- Saved customer assignments and cluster profile tables to a dedicated folder:
+### Final Segments (k = 3)
+The notebook assigns business personas (example names used in the final output):
+- **Prime Value Loyalists**
+- **Dormant Budget Drifters**
+- **Slipping Value Builders**
+
+> Exact counts, percentages, and per-feature summaries are generated and printed inside the Milestone 2 notebook.
+
+**5) Exports (Milestone 2 outputs)**
+- Saved customer assignments and cluster profile tables to:
   - `Milestone 2/Clusters/`
 
 ---
@@ -119,7 +128,6 @@ This repository is organized by milestone to keep work modular and submission-re
 │  ├─ Clusters/
 │  └─ Documentation/
 └─ README.md
-
 
 > See `Milestone 1/Documentation/README.md` for detailed MS1 workflow, decisions, and output descriptions.  
 > See `Milestone 2/Documentation/README.md` for detailed MS2 workflow, segment definitions, and recommendations.
@@ -145,7 +153,7 @@ This repository is organized by milestone to keep work modular and submission-re
 1) Open:
 - `Milestone 2/Notebook/FinMark_Milestone2_Clustering_Segmentation.ipynb`
 
-2) Ensure Milestone 1 outputs are available (cleaned/features) in their expected folders:
+2) Ensure Milestone 1 outputs are available in their expected folders:
 - `Milestone 1/Data/Cleaned/`
 - `Milestone 1/Features/`
 
@@ -159,6 +167,7 @@ This repository is organized by milestone to keep work modular and submission-re
 ## Notes
 - This project is designed for reproducibility: all key exports (cleaned + features + clusters) are saved and versionable.
 - Naming conventions and documentation are included for academic and GitHub readiness.
+- Clustering is **unsupervised**; segment outputs depend on feature design, scaling, and parameter choice.
 
 ---
 
